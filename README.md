@@ -1,0 +1,1 @@
+This repository demonstrates a common but easily overlooked error in R: silent failure when attempting to read a non-existent file. The `bug.r` file shows the problematic code, while `bugSolution.r` provides a corrected version that includes more informative error handling and uses `file.exists` for checking.
